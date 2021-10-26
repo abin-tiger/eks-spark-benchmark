@@ -2,7 +2,7 @@ name := "eks-spark-benchmark"
 
 version := "1.0"
 
-scalaVersion := "2.11.12"
+scalaVersion := "2.12.10"
 
 javacOptions ++= Seq("-source", "1.8", "-target", "1.8")
 
