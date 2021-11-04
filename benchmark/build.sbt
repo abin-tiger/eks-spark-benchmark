@@ -11,7 +11,7 @@ unmanagedBase <<= baseDirectory { base => base / "libs" }
 // Dependencies required for this project
 libraryDependencies ++= Seq(
   "org.apache.spark" %% "spark-core" % "3.2.0" % "provided",
-  "org.apache.spark" %% "spark-sql" % "3.3.0" % "provided",
+  "org.apache.spark" %% "spark-sql" % "3.2.0" % "provided",
   // JSON serialization
   "org.json4s" %% "json4s-native" % "3.6.7",
   // scala logging
